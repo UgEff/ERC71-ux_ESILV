@@ -1,0 +1,30 @@
+/* FakeNefturians.css */
+.fake-nefturians-container {
+    background-color: #333; /* Fond gris foncé */
+    padding: 30px;
+    border-radius: 10px;
+    margin: auto;
+    max-width: 600px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center; /* Centrer le contenu */
+}
+
+.fake-nefturians-container h1,
+.fake-nefturians-container p {
+color: white;
+margin: 10px 0;
+}
+.fake-nefturians-button {
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.fake-nefturians-button:hover,
+.fake-nefturians-button:focus {
+    background-color: lightblue; /* Changement de couleur au survol et à la sélection */
+}

@@ -1,0 +1,58 @@
+/* App.css */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Libre+Baskerville&family=Ubuntu&display=swap');
+
+body, html {
+  background-color: black;
+  height: 100%; /* Assurez-vous que le corps prend toute la hauteur */
+  margin: 0;
+  display: flex;
+  flex-direction: column; /* Organise les éléments en colonne */
+  align-items: center; /* Centre horizontalement */
+  justify-content: center; /* Centre verticalement */
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.App {
+  text-align: center; /* Centre le texte et les éléments inline */
+  flex: 1; /* Permet à l'élément App de prendre tout l'espace disponible */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+nav a {
+  color: white;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: lightblue;
+}
+
+button {
+  background-color: gray;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: lightblue;
+}
+
+/* App.css */
+.home-container {
+  text-align: center;
+  padding: 50px;
+}
+
+.ethereum-logo {
+  max-width: 200px; /* Ajustez selon la taille souhaitée */
+  margin-bottom: 20px;
+}
+
+

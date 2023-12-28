@@ -1,0 +1,74 @@
+.centered-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Assurez-vous que le composant occupe toute la hauteur de la vue */
+    margin: 0;
+  }
+  
+  .fake-bayc-container {
+    max-width: 600px;
+    padding: 50px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    /* Styles supplémentaires si nécessaire */
+  }
+  
+  .info-section {
+    margin-top: 20px;
+  }
+  
+  .info {
+    font-size: 18px;
+  }
+  
+  .claim-button {
+    background-color: #424c53;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  
+  .token-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submit-button {
+    background-color: #424c53;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    
+  }
+  
+  .error-message {
+    color: #e74c3c;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .image-container {
+    margin-top: 20px;
+  }
+  
+  .nft-image {
+    max-width: 100%;
+    height: auto;
+  }
+  

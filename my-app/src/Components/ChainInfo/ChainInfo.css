@@ -1,0 +1,41 @@
+/* ChainInfo.css */
+
+/* ChainInfo.css */
+.gray-container {
+  background-color: #f1eaea; /* Gris plus foncé pour un look plus subtil */
+  padding: 30px; /* Espacement interne ajusté */
+  border-radius: 10px; /* Bordures légèrement arrondies */
+  margin: auto; /* Centrage du conteneur */
+  max-width: 600px; /* Largeur maximale pour éviter que le conteneur ne soit trop large */
+  box-shadow: 0 2px 4px rgba(112, 102, 102, 0.795); /* Ombre subtile pour une profondeur légère */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
